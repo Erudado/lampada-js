@@ -1,0 +1,28 @@
+body{
+        background: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+}
+
+#conteudo{
+        padding: 300px;
+        border-radius: 180px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+
+body button{
+        cursor: pointer;
+        border: none;
+        border-radius: 180px;
+        transition: 0.8s;
+}
+
+body button:hover{
+        background-color: yellow;
+}
+
